@@ -12,6 +12,6 @@ PYTHON_KLIPPER_SETUP_TYPE = setuptools
 PYTHON_KLIPPER_LICENSE = GPL-3.0+
 PYTHON_KLIPPER_LICENSE_FILES = COPYING.txt
 
-PYTHON_KLIPPER_DEPENDENCIES = host-python-cffi
+PYTHON_KLIPPER_DEPENDENCIES = host-python-cffi libusb libusb-compat
 
 $(eval $(python-package))

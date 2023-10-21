@@ -6,5 +6,7 @@ config BR2_PACKAGE_PYTHON_KLIPPER
         select BR2_PACKAGE_PYTHON_JINJA2
         select BR2_PACKAGE_PYTHON_CAN
 	select BR2_PACKAGE_PYTHON_MARKUPSAFE 
+        select BR2_PACKAGE_LIBUSB
+        select BR2_PACKAGE_LIBUSB_COMPAT
 	help
 	  Klipper host daemon
