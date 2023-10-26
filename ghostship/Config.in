@@ -8,3 +8,5 @@ source "$BR2_EXTERNAL_ghostship_PATH/package/python-preprocess-cancellation/Conf
 source "$BR2_EXTERNAL_ghostship_PATH/package/python-msgspec/Config.in"
 source "$BR2_EXTERNAL_ghostship_PATH/package/python-inotifysimple/Config.in"
 source "$BR2_EXTERNAL_ghostship_PATH/package/python-enum34-ghostship/Config.in"
+source "$BR2_EXTERNAL_ghostship_PATH/package/python-libnacl/Config.in"
+source "$BR2_EXTERNAL_ghostship_PATH/package/python-poetry-core/Config.in"
